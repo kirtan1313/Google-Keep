@@ -52,13 +52,13 @@ function LoginForm() {
     }
 
     const handleHome = () => {
-        // navigate('/home');
+        navigate('/combine');
     }
 
     useEffect(() => {
         console.log("dkf");
         if (loading) {
-            navigate('/home')
+            navigate('/combine')
         }
     }, [loading])
 

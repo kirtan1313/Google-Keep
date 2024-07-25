@@ -14,14 +14,13 @@ function AddNote() {
     const handleAdd = () => {
         setExtend(true)
     }
-
     const handledis = () => {
         setExtend(false)
     }
-
     const onDoubleClickHandler =()=>{
         setExtend(false)
     }
+
     return (
         <>
 
