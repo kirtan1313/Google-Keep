@@ -3,6 +3,7 @@ import './createnote.css'
 import { Container, Row } from 'react-bootstrap'
 import AddNote from './AddNote'
 import ViewNotes from '../ViewNotes/ViewNotes'
+import Boxview from '../BoxView/BoxView'
 
 function CreateNote() {
     return (
@@ -43,11 +44,16 @@ function CreateNote() {
 
                             <Row className="justify-content-center">
                                 <div className="col-7">
+
                                     <AddNote />
-                                    
                                 </div>
                             </Row>
+                            <div>
+                                <Boxview />
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
             </Container>

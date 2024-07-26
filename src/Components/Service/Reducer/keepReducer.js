@@ -2,6 +2,8 @@ const initializ = {
     user: null,
     loading: false,
     error: false,
+    notes:[],
+    isSuc:false
 }
 
 const keepReducer = (state = initializ, action) => {
@@ -42,6 +44,13 @@ const keepReducer = (state = initializ, action) => {
                 loading:false,
                 error: null,
                 user:null
+            }
+
+        case 'GETDATASUC':
+            return{
+                ...state,
+                notes:action.payload,
+                isSuc:true
             }
 
         default:
