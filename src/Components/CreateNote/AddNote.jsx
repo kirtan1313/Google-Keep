@@ -65,6 +65,10 @@ function AddNote() {
     }
 
 
+   
+
+
+
 
     return (
         <>
@@ -95,8 +99,9 @@ function AddNote() {
                                         </div>
                                         <div className="col-1">
                                             <div className='hover-rounded'>
+                                               
                                                 <MdOutlineImage />
-
+                                               
                                             </div>
                                         </div>
                                         <div className="col-1">
